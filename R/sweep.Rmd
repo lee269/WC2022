@@ -29,7 +29,7 @@ groups <- c("Group A",
 
 matchdata <- read_csv(here("data", "matchdata.csv"))
 
-matchdata_wide <- matchdata %>% 
+fixtures <- matchdata %>% 
   pivot_wider(names_from = homeaway,
               values_from = c(team, goals, penalties, ycards, rcards, fouls)) %>% 
   mutate(points_hometeam = case_when(goals_hometeam > goals_awayteam ~ 3,
@@ -46,7 +46,7 @@ matchdata_wide <- matchdata %>%
                                      TRUE ~ "L"))
 
 
-hometeam <- matchdata_wide %>% 
+hometeam <- fixtures %>% 
             select(matchnumber, roundnumber, date, location, group,
                    team = team_hometeam,
                    result = result_hometeam,
@@ -58,7 +58,7 @@ hometeam <- matchdata_wide %>%
                    fouls = fouls_hometeam,
                    points = points_hometeam)
 
-awayteam <- matchdata_wide %>% 
+awayteam <- fixtures %>% 
   select(matchnumber, roundnumber, date, location, group,
          team = team_awayteam,
          result = result_awayteam,
@@ -70,7 +70,7 @@ awayteam <- matchdata_wide %>%
          fouls = fouls_awayteam,
          points = points_awayteam)
 
-matches <- hometeam %>% 
+matchdata_full <- hometeam %>% 
            bind_rows(awayteam)
 
 ```
@@ -137,14 +137,12 @@ knitr::kable(draw)
 
 ### Wooden Spoon
 
-This was a hotly contested category, with North Macedonia making a strong case
-in their first ever tournament finals. Ultimately, though **Turkey** are the
-turkeys from the group stage, with no points scored, shipping 8 goals and only
-scoring one of their own. Congratulations **Michael!**
+This is based on lowest points total, worst goal difference and most goals
+conceded, in that sort order
 
 ```{r wooden-spoon, echo=FALSE}
 
-matches %>% 
+matchdata_full %>% 
   na.omit() %>% 
   filter(group %in% groups) %>%
   group_by(team) %>% 
@@ -154,7 +152,7 @@ matches %>%
             goals_sum = sum(goals_for) + sum(goals_against),
             goal_diff = sum(goals_for) - sum(goals_against),
             pts = sum(points)) %>% 
-  arrange(pts, goal_diff) %>% 
+  arrange(pts, goal_diff, desc(goals_against)) %>% 
   reactable(pagination = TRUE,
             compact = TRUE,
             columns = list(
@@ -178,7 +176,7 @@ have not exactly been setting the world alight in this regard.
 
 ``` {r entertainers, echo=FALSE}
 
-matches %>% 
+matchdata_full %>% 
   na.omit() %>% 
   group_by(team) %>% 
   summarise(played = n(),
@@ -213,7 +211,7 @@ number of matches played.
 
 ```{r thugs, echo=FALSE}
 
-matches %>% 
+matchdata_full %>% 
   na.omit() %>% 
   group_by(team) %>% 
   summarise(played = n(),
@@ -240,10 +238,10 @@ matches %>%
 ### Group stages 
 
 
-```{r groups, echo=FALSE, message=FALSE, results='asis'}
+```{r groups, echo=FALSE, message=FALSE, results='asis', warning=FALSE}
 
 league_table <- function(groupname) {
-matches %>% 
+matchdata_full %>% 
   na.omit() %>% 
   filter(group == groupname) %>%
   group_by(team) %>% 
@@ -269,7 +267,7 @@ map(groups, league_table)
 
 ```{r overall}
 
-matches %>% 
+matchdata_full %>% 
   na.omit() %>% 
   group_by(team) %>% 
   summarise(played = n(),
@@ -288,3 +286,25 @@ matches %>%
 
 
 ```
+
+### Fixtures
+```{r fixtures}
+
+fixtures %>% 
+  mutate(fixture = ifelse(is.na(goals_hometeam),
+                          paste(team_hometeam, "v", team_awayteam),
+                          paste(team_hometeam, goals_hometeam, "-", goals_awayteam, team_awayteam)
+                          )
+         ) %>% 
+  select(matchnumber, date, fixture, location, group, roundnumber) %>% 
+  reactable(pagination = FALSE,
+            compact = TRUE,
+            resizable = TRUE,
+            filterable = TRUE,
+            columns = list(
+            matchnumber = colDef(name = "#"),
+            roundnumber = colDef(name = "Round"))
+            )
+
+```
+
