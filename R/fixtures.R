@@ -20,5 +20,5 @@ matchdata <- fifa_wc_2022 %>%
      select(-result) %>% 
      arrange(matchnumber, desc(homeaway))
 
-# write_csv(matchdata, here("data", "matchdata.csv"))
+write_csv(matchdata, here("data", "matchdata.csv"))
 
