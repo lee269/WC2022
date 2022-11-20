@@ -1,6 +1,6 @@
 matchnumber,roundnumber,date,location,group,homeaway,team,goals,penalties,ycards,rcards,fouls
-1,1,20/11/2022 16:00,Al Bayt Stadium,Group A,hometeam,Qatar,NA,NA,NA,NA,NA
-1,1,20/11/2022 16:00,Al Bayt Stadium,Group A,awayteam,Ecuador,NA,NA,NA,NA,NA
+1,1,20/11/2022 16:00,Al Bayt Stadium,Group A,hometeam,Qatar,0,0,4,0,15
+1,1,20/11/2022 16:00,Al Bayt Stadium,Group A,awayteam,Ecuador,2,1,2,0,15
 2,1,21/11/2022 16:00,Al Thumama Stadium,Group A,hometeam,Senegal,NA,NA,NA,NA,NA
 2,1,21/11/2022 16:00,Al Thumama Stadium,Group A,awayteam,Netherlands,NA,NA,NA,NA,NA
 3,1,21/11/2022 13:00,Khalifa International Stadium,Group B,hometeam,England,NA,NA,NA,NA,NA

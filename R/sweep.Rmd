@@ -259,8 +259,8 @@ matchdata_full %>%
             goal_diff = sum(goals_for) - sum(goals_against),
             ycards = sum(ycards),
             rcards = sum(rcards),
-            thug_index = sum(rcards) *2 + sum(ycards),
             fouls = sum(fouls),
+            thug_index = ((rcards * 25) + (ycards *5) + fouls) / played,
             pts = sum(points)) %>% 
   arrange(-pts, -goal_diff) %>%  
     knitr::kable(caption = paste0("**",groupname,"**"))
