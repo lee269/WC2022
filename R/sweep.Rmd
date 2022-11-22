@@ -251,7 +251,7 @@ league_table <- function(groupname) {
 matchdata_full %>% 
   na.omit() %>% 
   filter(group == groupname) %>%
-  group_by(team) %>% 
+  group_by(team, result) %>% 
   summarise(played = n(),
             goals_for = sum(goals_for),
             goals_against = sum(goals_against),
@@ -262,6 +262,8 @@ matchdata_full %>%
             fouls = sum(fouls),
             thug_index = ((rcards * 25) + (ycards *5) + fouls) / played,
             pts = sum(points)) %>% 
+  pivot_wider(names_from = result, values_from = played, values_fill = 0) %>%
+  relocate(starts_with(c("W", "L", "D")), .after = team) %>%
   arrange(-pts, -goal_diff) %>%  
     knitr::kable(caption = paste0("**",groupname,"**"))
 }
