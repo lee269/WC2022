@@ -7,8 +7,8 @@ matchnumber,roundnumber,date,location,group,homeaway,team,goals,penalties,ycards
 3,1,21/11/2022 13:00,Khalifa International Stadium,Group B,awayteam,Iran,2,1,2,0,14
 4,1,21/11/2022 19:00,Ahmad Bin Ali Stadium,Group B,hometeam,USA,1,0,4,0,15
 4,1,21/11/2022 19:00,Ahmad Bin Ali Stadium,Group B,awayteam,Wales,1,1,2,0,10
-5,1,22/11/2022 19:00,Al Janoub Stadium,Group D,hometeam,France,NA,NA,NA,NA,NA
-5,1,22/11/2022 19:00,Al Janoub Stadium,Group D,awayteam,Australia,NA,NA,NA,NA,NA
+5,1,22/11/2022 19:00,Al Janoub Stadium,Group D,hometeam,France,4,0,0,0,5
+5,1,22/11/2022 19:00,Al Janoub Stadium,Group D,awayteam,Australia,1,0,3,0,11
 6,1,22/11/2022 13:00,Education City Stadium,Group D,hometeam,Denmark,0,0,2,0,9
 6,1,22/11/2022 13:00,Education City Stadium,Group D,awayteam,Tunisia,0,0,1,0,10
 7,1,22/11/2022 16:00,Stadium 974,Group C,hometeam,Mexico,0,0,2,0,14
