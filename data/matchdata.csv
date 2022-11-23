@@ -19,10 +19,10 @@ matchnumber,roundnumber,date,location,group,homeaway,team,goals,penalties,ycards
 9,1,23/11/2022 19:00,Ahmad Bin Ali Stadium,Group F,awayteam,Canada,NA,NA,NA,NA,NA
 10,1,23/11/2022 16:00,Al Thumama Stadium,Group E,hometeam,Spain,NA,NA,NA,NA,NA
 10,1,23/11/2022 16:00,Al Thumama Stadium,Group E,awayteam,Costa Rica,NA,NA,NA,NA,NA
-11,1,23/11/2022 13:00,Khalifa International Stadium,Group E,hometeam,Germany,NA,NA,NA,NA,NA
-11,1,23/11/2022 13:00,Khalifa International Stadium,Group E,awayteam,Japan,NA,NA,NA,NA,NA
-12,1,23/11/2022 10:00,Al Bayt Stadium,Group F,hometeam,Morocco,NA,NA,NA,NA,NA
-12,1,23/11/2022 10:00,Al Bayt Stadium,Group F,awayteam,Croatia,NA,NA,NA,NA,NA
+11,1,23/11/2022 13:00,Khalifa International Stadium,Group E,hometeam,Germany,1,1,0,0,6
+11,1,23/11/2022 13:00,Khalifa International Stadium,Group E,awayteam,Japan,2,0,0,0,14
+12,1,23/11/2022 10:00,Al Bayt Stadium,Group F,hometeam,Morocco,0,0,1,0,17
+12,1,23/11/2022 10:00,Al Bayt Stadium,Group F,awayteam,Croatia,0,0,0,0,11
 13,1,24/11/2022 10:00,Al Janoub Stadium,Group G,hometeam,Switzerland,NA,NA,NA,NA,NA
 13,1,24/11/2022 10:00,Al Janoub Stadium,Group G,awayteam,Cameroon,NA,NA,NA,NA,NA
 14,1,24/11/2022 13:00,Education City Stadium,Group H,hometeam,Uruguay,NA,NA,NA,NA,NA
