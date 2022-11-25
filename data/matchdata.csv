@@ -31,12 +31,12 @@ matchnumber,roundnumber,date,location,group,homeaway,team,goals,penalties,ycards
 15,1,24/11/2022 16:00,Stadium 974,Group H,awayteam,Ghana,2,0,4,0,19
 16,1,24/11/2022 19:00,Lusail Stadium,Group G,hometeam,Brazil,2,0,0,0,7
 16,1,24/11/2022 19:00,Lusail Stadium,Group G,awayteam,Serbia,0,0,3,0,12
-17,2,25/11/2022 10:00,Ahmad Bin Ali Stadium,Group B,hometeam,Wales,NA,NA,NA,NA,NA
-17,2,25/11/2022 10:00,Ahmad Bin Ali Stadium,Group B,awayteam,Iran,NA,NA,NA,NA,NA
-18,2,25/11/2022 13:00,Al Thumama Stadium,Group A,hometeam,Qatar,NA,NA,NA,NA,NA
-18,2,25/11/2022 13:00,Al Thumama Stadium,Group A,awayteam,Senegal,NA,NA,NA,NA,NA
-19,2,25/11/2022 16:00,Khalifa International Stadium,Group A,hometeam,Netherlands,NA,NA,NA,NA,NA
-19,2,25/11/2022 16:00,Khalifa International Stadium,Group A,awayteam,Ecuador,NA,NA,NA,NA,NA
+17,2,25/11/2022 10:00,Ahmad Bin Ali Stadium,Group B,hometeam,Wales,0,0,1,1,9
+17,2,25/11/2022 10:00,Ahmad Bin Ali Stadium,Group B,awayteam,Iran,2,0,2,0,10
+18,2,25/11/2022 13:00,Al Thumama Stadium,Group A,hometeam,Qatar,1,0,3,0,7
+18,2,25/11/2022 13:00,Al Thumama Stadium,Group A,awayteam,Senegal,3,0,3,0,12
+19,2,25/11/2022 16:00,Khalifa International Stadium,Group A,hometeam,Netherlands,1,0,0,0,15
+19,2,25/11/2022 16:00,Khalifa International Stadium,Group A,awayteam,Ecuador,1,0,1,0,12
 20,2,25/11/2022 19:00,Al Bayt Stadium,Group B,hometeam,England,NA,NA,NA,NA,NA
 20,2,25/11/2022 19:00,Al Bayt Stadium,Group B,awayteam,USA,NA,NA,NA,NA,NA
 21,2,26/11/2022 10:00,Al Janoub Stadium,Group D,hometeam,Tunisia,NA,NA,NA,NA,NA
