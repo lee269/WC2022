@@ -23,14 +23,14 @@ matchnumber,roundnumber,date,location,group,homeaway,team,goals,penalties,ycards
 11,1,23/11/2022 13:00,Khalifa International Stadium,Group E,awayteam,Japan,2,0,0,0,14
 12,1,23/11/2022 10:00,Al Bayt Stadium,Group F,hometeam,Morocco,0,0,1,0,17
 12,1,23/11/2022 10:00,Al Bayt Stadium,Group F,awayteam,Croatia,0,0,0,0,11
-13,1,24/11/2022 10:00,Al Janoub Stadium,Group G,hometeam,Switzerland,NA,NA,NA,NA,NA
-13,1,24/11/2022 10:00,Al Janoub Stadium,Group G,awayteam,Cameroon,NA,NA,NA,NA,NA
-14,1,24/11/2022 13:00,Education City Stadium,Group H,hometeam,Uruguay,NA,NA,NA,NA,NA
-14,1,24/11/2022 13:00,Education City Stadium,Group H,awayteam,Korea Republic,NA,NA,NA,NA,NA
-15,1,24/11/2022 16:00,Stadium 974,Group H,hometeam,Portugal,NA,NA,NA,NA,NA
-15,1,24/11/2022 16:00,Stadium 974,Group H,awayteam,Ghana,NA,NA,NA,NA,NA
-16,1,24/11/2022 19:00,Lusail Stadium,Group G,hometeam,Brazil,NA,NA,NA,NA,NA
-16,1,24/11/2022 19:00,Lusail Stadium,Group G,awayteam,Serbia,NA,NA,NA,NA,NA
+13,1,24/11/2022 10:00,Al Janoub Stadium,Group G,hometeam,Switzerland,1,0,2,0,12
+13,1,24/11/2022 10:00,Al Janoub Stadium,Group G,awayteam,Cameroon,0,0,1,0,10
+14,1,24/11/2022 13:00,Education City Stadium,Group H,hometeam,Uruguay,0,0,1,0,7
+14,1,24/11/2022 13:00,Education City Stadium,Group H,awayteam,Korea Republic,0,0,1,0,10
+15,1,24/11/2022 16:00,Stadium 974,Group H,hometeam,Portugal,3,1,2,0,14
+15,1,24/11/2022 16:00,Stadium 974,Group H,awayteam,Ghana,2,0,4,0,19
+16,1,24/11/2022 19:00,Lusail Stadium,Group G,hometeam,Brazil,2,0,0,0,7
+16,1,24/11/2022 19:00,Lusail Stadium,Group G,awayteam,Serbia,0,0,3,0,12
 17,2,25/11/2022 10:00,Ahmad Bin Ali Stadium,Group B,hometeam,Wales,NA,NA,NA,NA,NA
 17,2,25/11/2022 10:00,Ahmad Bin Ali Stadium,Group B,awayteam,Iran,NA,NA,NA,NA,NA
 18,2,25/11/2022 13:00,Al Thumama Stadium,Group A,hometeam,Qatar,NA,NA,NA,NA,NA
