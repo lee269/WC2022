@@ -17,6 +17,8 @@ library(readr)
 library(purrr)
 library(reactable)
 
+source(here("R", "league_table.R"))
+
 seed = round(16.4 * 1224, digits = 0)
 groups <- c("Group A",
             "Group B",
@@ -247,28 +249,28 @@ matchdata_full %>%
 
 ```{r groups, echo=FALSE, message=FALSE, results='asis', warning=FALSE}
 
-league_table <- function(groupname) {
-matchdata_full %>% 
-  na.omit() %>% 
-  filter(group == groupname) %>%
-  group_by(team) %>% 
-  summarise(played = n(),
-            goals_for = sum(goals_for),
-            goals_against = sum(goals_against),
-            goals_sum = sum(goals_for) + sum(goals_against),
-            goal_diff = sum(goals_for) - sum(goals_against),
-            ycards = sum(ycards),
-            rcards = sum(rcards),
-            fouls = sum(fouls),
-            thug_index = ((rcards * 25) + (ycards *5) + fouls) / played,
-            pts = sum(points)) %>% 
-  # pivot_wider(names_from = result, values_from = played, values_fill = 0) %>%
-  # relocate(starts_with(c("W", "L", "D")), .after = team) %>%
-  arrange(-pts, -goal_diff) %>%  
-    knitr::kable(caption = paste0("**",groupname,"**"))
-}
+# league_table <- function(groupname) {
+# matchdata_full %>% 
+#   na.omit() %>% 
+#   filter(group == groupname) %>%
+#   group_by(team) %>% 
+#   summarise(played = n(),
+#             goals_for = sum(goals_for),
+#             goals_against = sum(goals_against),
+#             goals_sum = sum(goals_for) + sum(goals_against),
+#             goal_diff = sum(goals_for) - sum(goals_against),
+#             ycards = sum(ycards),
+#             rcards = sum(rcards),
+#             fouls = sum(fouls),
+#             thug_index = ((rcards * 25) + (ycards *5) + fouls) / played,
+#             pts = sum(points)) %>% 
+#   # pivot_wider(names_from = result, values_from = played, values_fill = 0) %>%
+#   # relocate(starts_with(c("W", "L", "D")), .after = team) %>%
+#   arrange(-pts, -goal_diff) %>%  
+#     knitr::kable(caption = paste0("**",groupname,"**"))
+# }
 
-map(groups, league_table)
+map(groups, league_table, data = matchdata_full)
 
 ```
 
