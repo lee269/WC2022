@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 /R/*.html
+/data/*.numbers
