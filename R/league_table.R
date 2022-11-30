@@ -26,7 +26,7 @@ wld <- data %>%
 grouptable <- table %>% 
   left_join(wld,by = c("team" = "team")) %>% 
   relocate(starts_with(c("W", "L", "D")), .after = team) %>%
-  arrange(-pts, -goal_diff) %>% 
+  arrange(-pts, -goal_diff, ycards) %>% 
   knitr::kable(caption = paste0("**",groupname,"**"))
 
 return(grouptable)

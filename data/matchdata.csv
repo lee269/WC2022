@@ -75,10 +75,10 @@ matchnumber,roundnumber,date,location,group,homeaway,team,goals,penalties,ycards
 37,3,30/11/2022 15:00,Al Janoub Stadium,Group D,awayteam,Denmark,0,0,1,0,10
 38,3,30/11/2022 15:00,Education City Stadium,Group D,hometeam,Tunisia,1,0,1,0,14
 38,3,30/11/2022 15:00,Education City Stadium,Group D,awayteam,France,0,0,0,0,6
-39,3,30/11/2022 19:00,Stadium 974,Group C,hometeam,Poland,NA,NA,NA,NA,NA
-39,3,30/11/2022 19:00,Stadium 974,Group C,awayteam,Argentina,NA,NA,NA,NA,NA
-40,3,30/11/2022 19:00,Lusail Stadium,Group C,hometeam,Saudi Arabia,NA,NA,NA,NA,NA
-40,3,30/11/2022 19:00,Lusail Stadium,Group C,awayteam,Mexico,NA,NA,NA,NA,NA
+39,3,30/11/2022 19:00,Stadium 974,Group C,hometeam,Poland,0,0,1,0,6
+39,3,30/11/2022 19:00,Stadium 974,Group C,awayteam,Argentina,2,0,1,0,11
+40,3,30/11/2022 19:00,Lusail Stadium,Group C,hometeam,Saudi Arabia,1,0,6,0,20
+40,3,30/11/2022 19:00,Lusail Stadium,Group C,awayteam,Mexico,2,0,1,0,18
 41,3,01/12/2022 15:00,Ahmad Bin Ali Stadium,Group F,hometeam,Croatia,NA,NA,NA,NA,NA
 41,3,01/12/2022 15:00,Ahmad Bin Ali Stadium,Group F,awayteam,Belgium,NA,NA,NA,NA,NA
 42,3,01/12/2022 15:00,Al Thumama Stadium,Group F,hometeam,Canada,NA,NA,NA,NA,NA
@@ -97,12 +97,12 @@ matchnumber,roundnumber,date,location,group,homeaway,team,goals,penalties,ycards
 48,3,02/12/2022 19:00,Lusail Stadium,Group G,awayteam,Brazil,NA,NA,NA,NA,NA
 49,Round of 16,03/12/2022 15:00,Khalifa International Stadium,NA,hometeam,Netherlands,NA,NA,NA,NA,NA
 49,Round of 16,03/12/2022 15:00,Khalifa International Stadium,NA,awayteam,USA,NA,NA,NA,NA,NA
-50,Round of 16,03/12/2022 19:00,Ahmad Bin Ali Stadium,NA,hometeam,1C,NA,NA,NA,NA,NA
+50,Round of 16,03/12/2022 19:00,Ahmad Bin Ali Stadium,NA,hometeam,Argentina,NA,NA,NA,NA,NA
 50,Round of 16,03/12/2022 19:00,Ahmad Bin Ali Stadium,NA,awayteam,Australia,NA,NA,NA,NA,NA
 51,Round of 16,04/12/2022 19:00,Al Bayt Stadium,NA,hometeam,England,NA,NA,NA,NA,NA
 51,Round of 16,04/12/2022 19:00,Al Bayt Stadium,NA,awayteam,Senegal,NA,NA,NA,NA,NA
 52,Round of 16,04/12/2022 15:00,Al Thumama Stadium,NA,hometeam,France,NA,NA,NA,NA,NA
-52,Round of 16,04/12/2022 15:00,Al Thumama Stadium,NA,awayteam,2C,NA,NA,NA,NA,NA
+52,Round of 16,04/12/2022 15:00,Al Thumama Stadium,NA,awayteam,Poland,NA,NA,NA,NA,NA
 53,Round of 16,05/12/2022 15:00,Al Janoub Stadium,NA,hometeam,1E,NA,NA,NA,NA,NA
 53,Round of 16,05/12/2022 15:00,Al Janoub Stadium,NA,awayteam,2F,NA,NA,NA,NA,NA
 54,Round of 16,05/12/2022 19:00,Stadium 974,NA,hometeam,1G,NA,NA,NA,NA,NA
