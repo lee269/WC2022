@@ -331,3 +331,14 @@ payment %>% arrange(Name, desc(Paid)) %>% knitr::kable()
 
 
 ```
+
+
+## The Winners!
+
+
+- **Winner** - TBD
+- **Runner up** - TBD
+- **Wooden Spoon** - Qatar - congratulations **`r draw %>% filter(country == "Qatar") %>% pull(name = )`!**
+- **Entertainers** - TBD
+- **Thugs** - TBD
+
