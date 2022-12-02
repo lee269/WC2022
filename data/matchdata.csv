@@ -91,10 +91,10 @@ matchnumber,roundnumber,date,location,group,homeaway,team,goals,penalties,ycards
 45,3,02/12/2022 15:00,Al Janoub Stadium,Group H,awayteam,Uruguay,2,2,5,0,11
 46,3,02/12/2022 15:00,Education City Stadium,Group H,hometeam,Korea Republic,2,0,2,0,9
 46,3,02/12/2022 15:00,Education City Stadium,Group H,awayteam,Portugal,1,0,0,0,11
-47,3,02/12/2022 19:00,Stadium 974,Group G,hometeam,Serbia,NA,NA,NA,NA,NA
-47,3,02/12/2022 19:00,Stadium 974,Group G,awayteam,Switzerland,NA,NA,NA,NA,NA
-48,3,02/12/2022 19:00,Lusail Stadium,Group G,hometeam,Cameroon,NA,NA,NA,NA,NA
-48,3,02/12/2022 19:00,Lusail Stadium,Group G,awayteam,Brazil,NA,NA,NA,NA,NA
+47,3,02/12/2022 19:00,Stadium 974,Group G,hometeam,Serbia,2,0,7,0,18
+47,3,02/12/2022 19:00,Stadium 974,Group G,awayteam,Switzerland,3,0,4,0,13
+48,3,02/12/2022 19:00,Lusail Stadium,Group G,hometeam,Cameroon,1,0,5,1,14
+48,3,02/12/2022 19:00,Lusail Stadium,Group G,awayteam,Brazil,0,0,2,0,14
 49,Round of 16,03/12/2022 15:00,Khalifa International Stadium,NA,hometeam,Netherlands,NA,NA,NA,NA,NA
 49,Round of 16,03/12/2022 15:00,Khalifa International Stadium,NA,awayteam,USA,NA,NA,NA,NA,NA
 50,Round of 16,03/12/2022 19:00,Ahmad Bin Ali Stadium,NA,hometeam,Argentina,NA,NA,NA,NA,NA
