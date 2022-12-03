@@ -153,8 +153,9 @@ conceded, in that sort order.
 ```{r wooden-spoon, echo=FALSE}
 
 matchdata_full %>% 
-  na.omit() %>% 
-  filter(group %in% groups) %>%
+  # na.omit() %>% 
+  filter(!is.na(goals_for)) %>% 
+  # filter(group %in% groups) %>%
   group_by(team) %>% 
   summarise(played = n(),
             goals_for = sum(goals_for),
@@ -186,7 +187,8 @@ see some buccaneering all out attacking football).
 ``` {r entertainers, echo=FALSE}
 
 matchdata_full %>% 
-  na.omit() %>% 
+  # na.omit() %>% 
+  filter(!is.na(goals_for)) %>% 
   group_by(team) %>% 
   summarise(played = n(),
             goals_for = sum(goals_for),
@@ -221,7 +223,8 @@ number of matches played.
 ```{r thugs, echo=FALSE}
 
 matchdata_full %>% 
-  na.omit() %>% 
+  # na.omit() %>% 
+  filter(!is.na(goals_for)) %>% 
   group_by(team) %>% 
   summarise(played = n(),
             ycards = sum(ycards),

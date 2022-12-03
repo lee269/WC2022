@@ -97,8 +97,8 @@ matchnumber,roundnumber,date,location,group,homeaway,team,goals,penalties,ycards
 48,3,02/12/2022 19:00,Lusail Stadium,Group G,awayteam,Brazil,0,0,2,0,14
 49,Round of 16,03/12/2022 15:00,Khalifa International Stadium,NA,hometeam,Netherlands,3,0,2,0,10
 49,Round of 16,03/12/2022 15:00,Khalifa International Stadium,NA,awayteam,USA,1,0,0,0,5
-50,Round of 16,03/12/2022 19:00,Ahmad Bin Ali Stadium,NA,hometeam,Argentina,NA,NA,NA,NA,NA
-50,Round of 16,03/12/2022 19:00,Ahmad Bin Ali Stadium,NA,awayteam,Australia,NA,NA,NA,NA,NA
+50,Round of 16,03/12/2022 19:00,Ahmad Bin Ali Stadium,NA,hometeam,Argentina,2,0,0,0,8
+50,Round of 16,03/12/2022 19:00,Ahmad Bin Ali Stadium,NA,awayteam,Australia,1,0,2,0,15
 51,Round of 16,04/12/2022 19:00,Al Bayt Stadium,NA,hometeam,England,NA,NA,NA,NA,NA
 51,Round of 16,04/12/2022 19:00,Al Bayt Stadium,NA,awayteam,Senegal,NA,NA,NA,NA,NA
 52,Round of 16,04/12/2022 15:00,Al Thumama Stadium,NA,hometeam,France,NA,NA,NA,NA,NA
@@ -112,7 +112,7 @@ matchnumber,roundnumber,date,location,group,homeaway,team,goals,penalties,ycards
 56,Round of 16,06/12/2022 19:00,Lusail Stadium,NA,hometeam,Portugal,NA,NA,NA,NA,NA
 56,Round of 16,06/12/2022 19:00,Lusail Stadium,NA,awayteam,Switzerland,NA,NA,NA,NA,NA
 57,Quarter Finals,09/12/2022 19:00,Lusail Stadium,NA,hometeam,Netherlands,NA,NA,NA,NA,NA
-57,Quarter Finals,09/12/2022 19:00,Lusail Stadium,NA,awayteam,W50,NA,NA,NA,NA,NA
+57,Quarter Finals,09/12/2022 19:00,Lusail Stadium,NA,awayteam,Argentina,NA,NA,NA,NA,NA
 58,Quarter Finals,09/12/2022 15:00,Education City Stadium,NA,hometeam,W53,NA,NA,NA,NA,NA
 58,Quarter Finals,09/12/2022 15:00,Education City Stadium,NA,awayteam,W54,NA,NA,NA,NA,NA
 59,Quarter Finals,10/12/2022 19:00,Al Bayt Stadium,NA,hometeam,W51,NA,NA,NA,NA,NA
