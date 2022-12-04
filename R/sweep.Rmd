@@ -282,7 +282,8 @@ map(groups, league_table, data = matchdata_full)
 ```{r overall}
 
 matchdata_full %>% 
-  na.omit() %>% 
+  # na.omit() %>% 
+  filter(!is.na(goals_for)) %>% 
   group_by(team) %>% 
   summarise(played = n(),
             goals_for = sum(goals_for),
