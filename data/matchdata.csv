@@ -121,9 +121,9 @@ matchnumber,roundnumber,date,location,group,homeaway,team,goals,penalties,ycards
 60,Quarter Finals,10/12/2022 15:00,Al Thumama Stadium,NA,awayteam,Portugal,0,0,1,0,9
 61,Semi Finals,13/12/2022 19:00,Lusail Stadium,NA,hometeam,Argentina,3,0,2,0,15
 61,Semi Finals,13/12/2022 19:00,Lusail Stadium,NA,awayteam,Croatia,0,0,2,0,8
-62,Semi Finals,14/12/2022 19:00,Al Bayt Stadium,NA,hometeam,France,NA,NA,NA,NA,NA
-62,Semi Finals,14/12/2022 19:00,Al Bayt Stadium,NA,awayteam,Morocco,NA,NA,NA,NA,NA
+62,Semi Finals,14/12/2022 19:00,Al Bayt Stadium,NA,hometeam,France,2,0,0,0,11
+62,Semi Finals,14/12/2022 19:00,Al Bayt Stadium,NA,awayteam,Morocco,0,0,1,0,11
 63,Finals,17/12/2022 15:00,Khalifa International Stadium,NA,hometeam,Croatia,NA,NA,NA,NA,NA
-63,Finals,17/12/2022 15:00,Khalifa International Stadium,NA,awayteam,RU62,NA,NA,NA,NA,NA
+63,Finals,17/12/2022 15:00,Khalifa International Stadium,NA,awayteam,Morocco,NA,NA,NA,NA,NA
 64,Finals,18/12/2022 15:00,Lusail Stadium,NA,hometeam,Argentina,NA,NA,NA,NA,NA
-64,Finals,18/12/2022 15:00,Lusail Stadium,NA,awayteam,W62,NA,NA,NA,NA,NA
+64,Finals,18/12/2022 15:00,Lusail Stadium,NA,awayteam,France,NA,NA,NA,NA,NA
